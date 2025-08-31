@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question Popup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MAIN POPUP -->
+  <div class="popup">
+    <button id="exitBtn" class="exit-btn">X</button>
+    <h2>HAIII GWYYYY!!!</h2>
+    <p><b>DATE TAYO BUKAS?</b></p>
+    <div class="buttons">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
+    </div>
+  </div>
+
+  <!-- MAIN OVERLAY AFTER YES -->
+  <div id="overlay" class="overlay hidden">
+    <div class="overlay-content">
+      <h1>✅ You clicked YES!</h1>
+      <p><b>I LOVE YOU</b></p>
+
+      <!-- Suggest Outfit button -->
+      <button id="suggestBtn">Suggest Outfit</button>
+
+      <br><br>
+      <!-- Details button -->
+      <button id="detailsBtn">Details</button>
+
+      <br><br>
+      <button id="closeOverlay">Close</button>
+    </div>
+  </div>
+
+  <!-- DETAILS OVERLAY -->
+  <div id="detailsOverlay" class="overlay hidden">
+    <div class="overlay-content">
+      <h2>Details</h2>
+      <p><b>What:</b> Dinner Date 💕</p>
+      <p><b>When:</b> Tomorrow 7PM</p>
+      <p><b>Where:</b> Secret hehe jk sunduin kita^^</p>
+
+      <br>
+      <button id="closeDetails">Close</button>
+    </div>
+  </div>
+
+  <!-- YAY POPUP -->
+  <div id="yayOverlay" class="overlay hidden">
+    <div class="overlay-content">
+      <h1>🎉 Yay! See youu!</h1>
+      <button id="closeYay">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
